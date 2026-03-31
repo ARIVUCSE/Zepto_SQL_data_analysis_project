@@ -32,7 +32,7 @@ The dataset contains product-level information such as:
 
 Step 1: Create Table
 
-    '''sql
+    
     create table zepto (
     sku_id SERIAL PRIMARY KEY,
     category varchar(120),
@@ -44,7 +44,7 @@ Step 1: Create Table
     weightInGms integer,
     outOfStock boolean,
     quantity integer
-    );'''
+    );
 
 🔍 Data Exploration
 
